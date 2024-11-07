@@ -41,3 +41,9 @@ NEXTAUTH_SECRET=
 - NEXTJS version 14.0.4
 - Tailwind CSS + Daisy UI
 - NextAuth.js
+
+GET '/api/stocks' : Get all stocks infomation
+GET '/api/stocks/:product_id' : Get stock infomation by product_id
+GET '/api/stocks/active' : Get all active stocks infomation
+GET '/api/stocks/inactive' : Get all inactive stocks infomation
+GET '/api/stocks/category/category_string' : Get all stocks infomation by category
